@@ -1,6 +1,6 @@
 import { UserProvider } from '@auth0/nextjs-auth0';
 import Navbar from '../components/Navbar';
-import '../styles/app.css';
+import '../dist/app.css';
 
 function MyApp({ Component, pageProps }) {
   return (
